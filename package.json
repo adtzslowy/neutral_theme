@@ -1,0 +1,26 @@
+{
+  "name": "neutral-theme",
+  "displayName": "Neutral Theme",
+  "description": "Neutral Theme is a calm, Nord-inspired dark theme built with a neutral base and carefully muted accents for long, distraction-free coding sessions.",
+  "publisher": "adtzslowy",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neutral Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/adtzslowy-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adtzslowy/neutral_theme"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "name": "NEUTRAL THEME",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#18181b",
+    "editor.foreground": "#D8DEE9",
+    "editorCursor.foreground": "#D8DEE9",
+    "editor.lineHighlightBackground": "#18181b",
+    "editor.selectionBackground": "#5A7863",
+    "editorIndentGuide.background": "#18181b",
+    "editorIndentGuide.activeBackground": "#18181b",
+    "titleBar.activeBackground": "#18181B",
+    "titleBar.inactiveBackground": "#18181B",
+    "titleBar.activeForeground": "#18181B",
+    "titleBar.inactiveForeground": "#18181B",
+
+    "activityBar.background": "#18181b",
+    "activityBar.foreground": "#D8DEE9",
+
+    "sideBar.background": "#18181b",
+    "sideBar.foreground": "#D8DEE9",
+
+    "statusBar.background": "#18181b",
+    "statusBar.foreground": "#D8DEE9"
+  },
+
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#616E88"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+  "name": "HTML & JSX Tags",
+  "scope": [
+    "entity.name.tag",
+    "entity.name.tag.html",
+    "entity.name.tag.jsx",
+    "entity.name.tag.tsx",
+    "meta.tag.sgml",
+    "meta.tag.structure.html"
+  ],
+  "settings": {
+    "foreground": "#81A1C1"
+  }
+},
+{
+  "name": "React Components",
+  "scope": [
+    "support.class.component",
+    "support.class.component.jsx",
+    "support.class.component.tsx"
+  ],
+  "settings": {
+    "foreground": "#8FBCBB"
+  }
+},
+{
+  "name": "CSS Property",
+  "scope": [
+    "support.type.property-name.css",
+    "support.type.property-name.scss",
+    "support.type.property-name.sass"
+  ],
+  "settings": {
+    "foreground": "#88C0D0"
+  }
+},
+{
+  "name": "CSS Class Selector",
+  "scope": [
+    "entity.other.attribute-name.class.css",
+    "entity.other.attribute-name.class.scss",
+    "entity.other.attribute-name.class.sass"
+  ],
+  "settings": {
+    "foreground": "#8FBCBB"
+  }
+},
+{
+  "name": "CSS ID Selector",
+  "scope": [
+    "entity.other.attribute-name.id.css",
+    "entity.other.attribute-name.id.scss",
+    "entity.other.attribute-name.id.sass"
+  ],
+  "settings": {
+    "foreground": "#81A1C1"
+  }
+},
+{
+  "name": "JavaScript & TypeScript Keywords",
+  "scope": [
+    "keyword.control",
+    "keyword.operator",
+    "storage.type"
+  ],
+  "settings": {
+    "foreground": "#81A1C1"
+  }
+},
+{
+  "name": "Strings",
+  "scope": [
+    "string",
+    "string.quoted",
+    "string.template"
+  ],
+  "settings": {
+    "foreground": "#A3BE8C"
+  }
+},
+{
+  "name": "Snippets & Embedded",
+    "scope": [
+        "meta.embedded",
+        "variable.language"
+    ],
+        "settings": {
+            "foreground": "#D8DEE9"
+        }
+    },
+
+
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#88C0D0"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#A3BE8C"
+      }
+    },
+    {
+      "name": "Number & Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#B48EAD"
+      }
+    },
+    {
+      "name": "Types & Classes",
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#BF616A"
+      }
+    },
+    {
+      "name": "Links",
+      "scope": [
+        "string.other.link",
+        "*url*",
+        "*link*",
+        "*uri*"
+      ],
+      "settings": {
+        "foreground": "#88C0D0",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}
